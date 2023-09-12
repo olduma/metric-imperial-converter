@@ -1,0 +1,92 @@
+*{
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff704d, #ffcc80); /* Add gradient background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    /*background-color: #ddd;*/
+    /*margin: 50px 0;*/
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+code {
+    /*background-color: #f2f2f2;*/
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* Animation for button */
+#convert {
+    background-color: #ff704d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 35px;
+}
+
+#convert:hover {
+    background-color: #ff5722;
+}
+
+/* Gradients animation */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#testui {
+    animation: gradient 5s linear infinite;
+    background-size: 200% 200%;
+    background-image: linear-gradient(45deg, #ff704d, #ffcc80, #ff704d);
+    border-radius: 4px;
+    padding: 20px;
+}
+
+input{
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #e5adad;
+}
